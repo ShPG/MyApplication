@@ -7,7 +7,7 @@ import {
     WebView,
 } from 'react-native';
 
-
+// 'http://www.lcode.org'ß
 export default class App extends Component<{}> {
     render() {
         return (
@@ -21,7 +21,7 @@ export default class App extends Component<{}> {
                         style={{height:100}}
                         scrollEnabled={false}
                         javaScriptEnabled={true}
-                        source={{uri: 'http://www.lcode.org'}}
+                        source={{uri: 'https://map.baidu.com'}}
                       ></WebView>
 
 
